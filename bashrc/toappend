@@ -2,9 +2,8 @@
 ## Update hduser configuration file by appending the 
 ## following environment variables at the end of this file.
 
-echo "???????????????? DID YOU UPDATE JAVA_HOME ????????????????? in bashrc ????????"
 # -- HADOOP ENVIRONMENT VARIABLES START -- #
-export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 export HADOOP_HOME=/usr/local/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin
 export PATH=$PATH:$HADOOP_HOME/sbin
